@@ -11,5 +11,5 @@ Some of these date back to a few years ago. I have cleaned them up and made them
 Here is a list of these mini-projects:
  - Fully-connected network for the *Boston Housing Prices* dataset.
  - DNN-based classifier for the *Telco Customer Churn* problem.
- - Gaussian processes with only NumPy!
- - 
+ - Gaussian process from scratch (only NumPy utilities)!
+ - ...
