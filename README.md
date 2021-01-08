@@ -9,7 +9,8 @@ Here some of the questions that motivated some of the projects in this repositor
 Some of these date back to a few years ago. I have cleaned them up and made them available here so that I can share them with others more conveniently and also in case someone else finds them useful. There are still a number of these that I have to clean up and add.
 
 Here is a list of these mini-projects:
- - Fully-connected network for the *Boston Housing Prices* dataset.
- - DNN-based classifier for the *Telco Customer Churn* problem.
- - Gaussian process from scratch with only NumPy!
+ - [Fully-connected network for the *Boston Housing Prices* dataset.](https://github.com/sedihub/ml_explorations/tree/main/boston_housing_prices)
+ - [DNN-based classifier for the *Telco Customer Churn* problem.](https://github.com/sedihub/ml_explorations/tree/main/telco_customer_churn)
+ - [Gaussian process from scratch with only NumPy!](https://github.com/sedihub/ml_explorations/tree/main/boston_housing_prices)
+ - Learning metric in K-NN regression and classification problems (coming soon!)
  - ...
