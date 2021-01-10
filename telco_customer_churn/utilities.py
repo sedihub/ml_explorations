@@ -1,6 +1,8 @@
 """Provides a few common utilities for the notebooks
 """
 
+import tensorflow as tf
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -106,3 +108,90 @@ def plot_correlation_matrix(
     ax.tick_params(axis="both", which="both",length=0)
     
     plt.show()
+    
+
+class SparseCategoricalTP(tf.keras.metrics.TruePositives):
+    """True Positive metric.
+    """
+    def update_state(self, y_true, y_pred, sample_weight=None):
+        y_true = tf.squeeze(y_true)
+        y_pred = tf.squeeze(tf.math.argmax(y_pred, axis=-1))
+        super(SparseCategoricalTP, self).update_state(y_true, y_pred, sample_weight)
+
+        
+class SparseCategoricalFN(tf.keras.metrics.FalseNegatives):
+    """False negative metric.
+    """
+    def update_state(self, y_true, y_pred, sample_weight=None):
+        y_true = tf.squeeze(y_true)
+        y_pred = tf.squeeze(tf.math.argmax(y_pred, axis=-1))
+        super(SparseCategoricalFN, self).update_state(y_true, y_pred, sample_weight)
+
+        
+class SparseCategoricalFP(tf.keras.metrics.FalsePositives):
+    """False positive metric.
+    """
+    def update_state(self, y_true, y_pred, sample_weight=None):
+        y_true = tf.squeeze(y_true)
+        y_pred = tf.squeeze(tf.math.argmax(y_pred, axis=-1))
+        super(SparseCategoricalFP, self).update_state(y_true, y_pred, sample_weight)
+
+        
+class SparseCategoricalTN(tf.keras.metrics.TrueNegatives):
+    """True negative metric.
+    """
+    def update_state(self, y_true, y_pred, sample_weight=None):
+        y_true = tf.squeeze(y_true)
+        y_pred = tf.squeeze(tf.math.argmax(y_pred, axis=-1))
+        super(SparseCategoricalTN, self).update_state(y_true, y_pred, sample_weight)
+        
+        
+def plot_binary_confusion_matrix(conf_mat: np.ndarray):
+    """ Plots confusion matrix for binary classification.
+    """
+    conf_mat = conf_mat / np.sum(conf_mat)
+    plt.title("Confusion Matrix", color="gray", fontsize=18)
+    plt.imshow(conf_mat, cmap="Blues")
+    ax = plt.gca()
+    ax.set_xlabel("Prediction", color="gray", fontsize=14)
+    ax.set_ylabel("Condition", color="gray", fontsize=14)
+    ax.text(0.0, 0.0, "TN\n" + str(round(conf_mat[0, 0], 2)), 
+            ha="center", va="center", color="royalblue", fontsize=18, transform=ax.transData)
+    ax.text(1.0, 0.0, "FP\n" + str(round(conf_mat[0, 1], 2)), 
+            ha="center", va="center", color="orange", fontsize=18, transform=ax.transData)
+    ax.text(0.0, 1.0, "FN\n" + str(round(conf_mat[1, 0], 2)), 
+            ha="center", va="center", color="orange", fontsize=18, transform=ax.transData)
+    ax.text(1.0, 1.0, "TP\n" + str(round(conf_mat[1, 1], 2)), 
+            ha="center", va="center", color="royalblue", fontsize=18, transform=ax.transData)
+    ax.set_xlabel("Prediction", color="gray", fontsize=14)
+    ax.set_ylabel("Condition", color="gray", fontsize=14)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    plt.show()
+    
+
+def evaluate_model(model, features, labels, show_confusion_matrix=True):
+    """A helper class for evaluating a trained TF Keras model with above
+    custom metrics (TP, FP, FN, and TN) attached.
+    
+    Args:
+        model: The trained TF Keras model.
+        features: Inputs or features. Could be an array, a generator, 
+            an instance of tf.keras.sequence, or even a tf.data.Dataset
+            instance.
+        labels: The array of labels if features are provided as an array,
+        show_confusion_matrix: If `True` (default) will plot the confusion
+            matrix after evaluation.
+    """
+    eval_results = model.evaluate(
+    features, labels, return_dict=True, verbose=0)
+
+    # print("Evaluation results:")
+    for name, val in eval_results.items():
+        print(f"\t{name:32}{round(float(val), 5)}")
+    
+    if show_confusion_matrix:
+        conf_mat = np.array([
+            [eval_results["TN"], eval_results["FP"]],
+            [eval_results["FN"], eval_results["TP"]]])
+        plot_binary_confusion_matrix(conf_mat)
