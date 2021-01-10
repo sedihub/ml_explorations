@@ -19,3 +19,12 @@ Feature analysis reveal some interesting, though not surprising, aspects listed 
  - Having contract inversely correlated with staying. The reverse (not having contract therefore canceling) is correlated but not as strongly. This is of course expected:
 !["Total Charges" is a redundant feature](https://github.com/sedihub/ml_explorations/blob/main/telco_customer_churn/.images/contract_churn_scatter_plot.png?raw=true)
 !["Total Charges" is a redundant feature](https://github.com/sedihub/ml_explorations/blob/main/telco_customer_churn/.images/contract_churn_confusion_matrix.png?raw=true)
+
+
+## Upshot
+
+We attempted to develop classifiers in two separate ways: Using random forest and gradient boosting after an in-depth exploration of the dataset. We also ignored the findings of feature explorations, and attempted developing a classifier using a DNN. Once can draw the following conclusions from the presented analysis here:
+
+ - DNNs seem to be more prone to overfitting when dealing with classification problems with not much data. The reason that DNNs are more prone to overfitting is that they have a high capacity. 
+ - DNNs have the important advantage of not being sensitive to feature engineering. They can learn the importance of various features provided that enough data is available. 
+ - DNNs, not requiring much feature engineering, seem to offer an interesting route to fast solutions.
