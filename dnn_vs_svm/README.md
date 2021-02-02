@@ -20,14 +20,14 @@ In this case we apply the SVM and DNN classifiers on two ellipsoidal point cloud
     <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/separable_pont_clouds.png" alt="Intersecting ellipsoidal point clouds" width="80%" height="80%">
 </p>
 
-After fitting the SVM classifier to the data, we obtain the following classifier:
+After fitting the SVM classifier (left) to the data, and training the DNN (right) we obtain:
 <p align="center">
-    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/svm_classification_results_on_separable_point_cloud.png" alt="SVM classification results on separable point clouds" width="60%" height="60%">
 </p>
 
 For the DNN, we find:
 <p align="center">
-    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/dnn_classification_results_on_separable_point_cloud.png" alt="DNN classification results on separable point clouds" width="60%" height="60%">
+    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/svm_classification_results_on_separable_point_cloud.png" alt="SVM classification results on separable point clouds" width="50%" height="50%">
+    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/dnn_classification_results_on_separable_point_cloud.png" alt="DNN classification results on separable point clouds" width="50%" height="50%">
 </p>
 
 
@@ -37,15 +37,10 @@ For the DNN, we find:
     <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/intersecting_pont_clouds.png" alt="Separable ellipsoidal point clouds" width="80%" height="80%">
 </p>
 
-In this case, for the SVM classifier we have:
+Trained SVM (left) and DNN (right):
 <p align="center">
-    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/svm_classification_results_on_intersecting_point_cloud.png" alt="SVM classification results on intersecting point clouds" width="60%" height="60%">
-</p>
-
-
-and for the DNN classifier:
-<p align="center">
-    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/dnn_classification_results_on_intersecting_point_cloud.png" alt="DNN classification results on intersecting point clouds" width="60%" height="60%">
+    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/svm_classification_results_on_intersecting_point_cloud.png" alt="SVM classification results on intersecting point clouds" caption="SVM" width="50%" height="50%">
+    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/dnn_classification_results_on_intersecting_point_cloud.png" alt="DNN classification results on intersecting point clouds" caption="DNN" width="50%" height="50%">
 </p>
 
 
