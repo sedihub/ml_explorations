@@ -12,5 +12,6 @@ Here is a list of these mini-projects:
  - [Fully-connected network for the *Boston Housing Prices* dataset.](https://github.com/sedihub/ml_explorations/tree/main/boston_housing_prices)
  - [DNN-based classifier for the *Telco Customer Churn* problem.](https://github.com/sedihub/ml_explorations/tree/main/telco_customer_churn)
  - [Gaussian process from scratch with only NumPy!](https://github.com/sedihub/ml_explorations/tree/main/gaussian_process_from_scratch)
+ - [DNN vs. SVM](https://github.com/sedihub/ml_explorations/tree/main/dnn_vs_svm)
  - Learning metric in K-NN regression and classification problems (coming soon!)
  - ...
