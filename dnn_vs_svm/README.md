@@ -1,4 +1,4 @@
-**TODO: Clean up the notebook...**
+**TODO: Clean up the notebook (this is the super old notebook...)**
 <br><br>
 
 # Deep Neural Network vs. Support Vector Machine
