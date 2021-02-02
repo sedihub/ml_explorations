@@ -26,8 +26,8 @@ After fitting the SVM classifier (left) to the data, and training the DNN (right
 
 For the DNN, we find:
 <p align="center">
-    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/svm_classification_results_on_separable_point_cloud.png" alt="SVM classification results on separable point clouds" width="50%" height="50%">
-    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/dnn_classification_results_on_separable_point_cloud.png" alt="DNN classification results on separable point clouds" width="50%" height="50%">
+    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/svm_classification_results_on_separable_point_cloud.png" alt="SVM classification results on separable point clouds" width="49%" height="49%">
+    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/dnn_classification_results_on_separable_point_cloud.png" alt="DNN classification results on separable point clouds" width="49%" height="49%">
 </p>
 
 
@@ -39,8 +39,10 @@ For the DNN, we find:
 
 Trained SVM (left) and DNN (right):
 <p align="center">
-    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/svm_classification_results_on_intersecting_point_cloud.png" alt="SVM classification results on intersecting point clouds" caption="SVM" width="50%" height="50%">
-    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/dnn_classification_results_on_intersecting_point_cloud.png" alt="DNN classification results on intersecting point clouds" caption="DNN" width="50%" height="50%">
+    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/svm_classification_results_on_intersecting_point_cloud.png" alt="SVM classification results on intersecting point clouds" width="49%" height="49%">
+    <figcaption>SVM</figcaption>
+    <img src="https://github.com/sedihub/ml_explorations/blob/main/dnn_vs_svm/.images/dnn_classification_results_on_intersecting_point_cloud.png" alt="DNN classification results on intersecting point clouds" width="49%" height="49%">
+    <figcaption>DNN</figcaption>
 </p>
 
 
