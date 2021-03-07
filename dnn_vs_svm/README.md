@@ -21,8 +21,6 @@ In this case we apply the SVM and DNN classifiers on two ellipsoidal point cloud
 </p>
 
 After fitting the SVM classifier (left) to the data, and training the DNN (right) we obtain:
-<p align="center">
-</p>
 
 For the DNN, we find:
 <p align="center">
