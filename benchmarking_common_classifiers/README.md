@@ -43,7 +43,12 @@ The goal of this exploration is to examine the most common classifiers on a synt
     <em>Gradient Boosting</em>
 </p>
 
-<figure>
-  <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/gradient_boosting.png" alt="my alt text" width="25%" height="25%"/>
-  <figcaption>This is my caption text.</figcaption>
-</figure>
+<p align="center">
+    <figure>
+      <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/gradient_boosting.png" alt="my alt text" width="25%" height="25%"/>
+      <figcaption>This is my caption text.</figcaption>
+      #
+      <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/gradient_boosting.png" alt="my alt text" width="25%" height="25%"/>
+      <figcaption>This is my caption text.</figcaption>
+    </figure>
+</p>
