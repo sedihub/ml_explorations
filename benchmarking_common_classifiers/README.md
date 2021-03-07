@@ -15,10 +15,18 @@ The goal of this exploration is to examine the most common classifiers on a synt
     <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/polynomial_svm.png" title="Polynomial SVM Classifier (Degree 3)" alt="Polynomial SVM Classifier (Degree 3)" width="33%" height="33%">
     <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/knn.png" title="KNN Classifier (Degree 3)" alt="KNN Classifier (Degree 3)" width="33%" height="33%">
 </p>
+<p align="center">
+    <em>Linear SVM</em>
+    <em>Polynomial SVM</em>
+    <em>KNN</em>
+</p>
 <br><br>
 
 <p align="center">
     <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/decision_trees.png" title="Decision Tree Classifier" alt="Decision Tree Classifier" width="70%" height="70%">
+</p>
+<p align="center">
+    <em>Decision Tree Classifier (various maximum depth)</em>
 </p>
 <br><br>
 
@@ -30,7 +38,7 @@ The goal of this exploration is to examine the most common classifiers on a synt
     <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/gradient_boosting.png" title="Gradient Boosting" alt="Gradient Boosting" width="33%" height="33%">
 </p>
 <p align="center">
-    <strong>Random Forest Classifier</strong>
-    <strong>AdaBoost</strong>
-    <strong>Gradient Boosting</strong>
+    <em>Random Forest Classifier</em>
+    <em>AdaBoost</em>
+    <em>Gradient Boosting</em>
 </p>
