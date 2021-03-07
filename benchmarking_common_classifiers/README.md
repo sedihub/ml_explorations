@@ -24,7 +24,8 @@ The goal of this exploration is to examine the most common classifiers on a synt
 
 <p align="center">
     <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/decision_trees.png" title="Decision Tree Classifier" alt="Decision Tree Classifier" width="70%" height="70%">
-    <br\>
+</p>
+<p align="center">
     <em>Decision Tree Classifier (various maximum depth)</em>
 </p>
 <br><br>
@@ -41,3 +42,8 @@ The goal of this exploration is to examine the most common classifiers on a synt
     <em>AdaBoost</em>
     <em>Gradient Boosting</em>
 </p>
+
+<figure>
+  <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/gradient_boosting.png" alt="my alt text" width="25%" height="25%"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
