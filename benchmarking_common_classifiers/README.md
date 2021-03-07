@@ -16,9 +16,9 @@ The goal of this exploration is to examine the most common classifiers on a synt
     <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/knn.png" title="KNN Classifier (Degree 3)" alt="KNN Classifier (Degree 3)" width="33%" height="33%">
 </p>
 <p align="center">
-    <em>Linear SVM</em>
-    <em>Polynomial SVM</em>
-    <em>KNN</em>
+    <em>Linear SVM   </em>
+    <em>   Polynomial SVM   </em>
+    <em>   KNN</em>
 </p>
 <br><br>
 
@@ -38,17 +38,7 @@ The goal of this exploration is to examine the most common classifiers on a synt
     <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/gradient_boosting.png" title="Gradient Boosting" alt="Gradient Boosting" width="33%" height="33%">
 </p>
 <p align="center">
-    <em>Random Forest Classifier</em>
-    <em>AdaBoost</em>
-    <em>Gradient Boosting</em>
-</p>
-
-<p align="center">
-    <figure>
-      <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/gradient_boosting.png" alt="my alt text" width="25%" height="25%"/>
-      <figcaption>This is my caption text.</figcaption>
-      #
-      <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/gradient_boosting.png" alt="my alt text" width="25%" height="25%"/>
-      <figcaption>This is my caption text.</figcaption>
-    </figure>
+    <em>Random Forest Classifier   </em>
+    <em>   AdaBoost   </em>
+    <em>   Gradient Boosting</em>
 </p>
