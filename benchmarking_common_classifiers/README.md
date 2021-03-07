@@ -29,3 +29,8 @@ The goal of this exploration is to examine the most common classifiers on a synt
     <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/adaboost.png" title="AdaBoost" alt="AdaBoost" width="33%" height="33%">
     <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/gradient_boosting.png" title="Gradient Boosting" alt="Gradient Boosting" width="33%" height="33%">
 </p>
+<p align="center">
+    <strong>Random Forest Classifier</strong>
+    <strong>AdaBoost</strong>
+    <strong>Gradient Boosting</strong>
+</p>
