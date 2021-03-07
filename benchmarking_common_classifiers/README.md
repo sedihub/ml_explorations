@@ -24,8 +24,7 @@ The goal of this exploration is to examine the most common classifiers on a synt
 
 <p align="center">
     <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/decision_trees.png" title="Decision Tree Classifier" alt="Decision Tree Classifier" width="70%" height="70%">
-</p>
-<p align="center">
+    <br\>
     <em>Decision Tree Classifier (various maximum depth)</em>
 </p>
 <br><br>
