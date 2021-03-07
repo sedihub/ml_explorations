@@ -3,7 +3,7 @@
 The goal of this exploration is to examine the most common classifiers on a synthetic tri-class classification task.
 
 <p align="center">
-    <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/dataset.png" title="Synthetic Dataset" alt="Synthetic Dataset" width="70%" height="70%">
+    <img src="https://github.com/sedihub/ml_explorations/blob/main/benchmarking_common_classifiers/.images/dataset.png" title="Synthetic Dataset" alt="Synthetic Dataset" width="40%" height="40%">
 </p>
 
 <br><br><br>
