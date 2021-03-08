@@ -13,5 +13,7 @@ Here is a list of these mini-projects:
  - [DNN-based classifier for the *Telco Customer Churn* problem.](https://github.com/sedihub/ml_explorations/tree/main/telco_customer_churn)
  - [Gaussian process from scratch with only NumPy!](https://github.com/sedihub/ml_explorations/tree/main/gaussian_process_from_scratch)
  - [DNN vs. SVM](https://github.com/sedihub/ml_explorations/tree/main/dnn_vs_svm)
+ - [Benchmarking Common Classifiers](https://github.com/sedihub/ml_explorations/tree/main/benchmarking_common_classifiers) (coming soon!)
+ - [Sci-Kit Learn Toy Datasets](https://github.com/sedihub/ml_explorations/tree/main/sklearn_toy_datasets) (coming soon!)
  - [Learning metric in K-NN regression and classification problems](https://github.com/sedihub/ml_explorations/tree/main/learned_metric_in_knn) (coming soon!)
  - ...
